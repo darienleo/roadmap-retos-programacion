@@ -1,0 +1,52 @@
+Parte 1:
+#00 SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO
+
+Codigo:
+
+public class main
+{
+    public static void main(String[] args) {
+
+        // Forma de solo escribir una linea de comentario
+        /* Forma de escribir
+         mas de una linea de comentarios
+        */
+
+        /* lo descargue con el intellij
+        IDEA https://www.jetbrains.com/es-es/idea/download/?section=windows */
+
+
+        // Variable de numeros enteros
+        int numero1 = 10;
+
+        // Variable constante (El valor no se puede reasignar)
+        final int numero3 = 20;
+
+        // Variable de numeros con decimales
+        double numero2 = 3.99;
+
+        // Variable de tipo de texto
+        String nombre = "Leandro";
+
+        // Variable de desicion si o no - verdadero o falso
+        boolean NombreReal = true;
+
+        // Ejemplo de reasignacion de variable que no es constante
+        numero2 = 4.22;
+
+
+        //El print imprime el mensaje en la misma linea de la consola
+        /*System.out.print("Hola");
+        System.out.print("mundo");*/
+
+
+        // El println hace que lo imprima en la segunda linea de la consola
+        /*System.out.println("Hola");
+        System.out.println("Mundo");*/
+
+        System.out.println("!Hola,'El lenguage que estoy utilizando es java'!");
+
+
+    }
+
+}
